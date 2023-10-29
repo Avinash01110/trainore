@@ -18,9 +18,9 @@ const home = () => {
         </Head>
       </div>
       <div className="text-gray-600 body-font">
-        <Fade isvisible>
-          <div className="xl:bg-white container mx-auto flex pt-48 xl:pt-16 sm:pt-48 xl:gap-x-36 xl:flex-row flex-col justify-center items-center">
-            <div className="lg:flex-grow md:w-1/2 flex flex-col items-center text-center xl:items-start xl:text-start z-20">
+          <div className="xl:bg-white px-4 xl:px-0 container mx-auto flex pt-48 xl:pt-16 sm:pt-48 xl:gap-x-36 xl:flex-row flex-col justify-center items-center">
+          <Fade isvisible>
+            <div className="lg:flex-grow md:w-1/2 flex flex-col justify-center items-center text-center xl:items-start xl:text-start z-20">
               <h1 className="title-font sm:text-4xl text-31xl mb-4 font-medium text-gray-900 text-colour-main-blue-900 font-bold-26">
                 <TypeAnimation
                   sequence={[
@@ -40,7 +40,7 @@ const home = () => {
                   repeat={Infinity}
                 />
               </h1>
-              <p className="mb-8 leading-relaxed">
+              <p className="mb-8 leading-relaxed text-justify">
                 At Trainore, we understand that your organization's success is
                 deeply intertwined with the skills and knowledge of your
                 employees. That's why we offer comprehensive training solutions
@@ -55,6 +55,7 @@ const home = () => {
                 </button>
               </div>
             </div>
+            </Fade>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-7/12 px-33 overflow-hidden xl:flex hidden">
               <Fade isvisible>
                 <img
@@ -67,10 +68,10 @@ const home = () => {
               </Fade>
             </div>
           </div>
-        </Fade>
-        <div className="bg-brown h-auto pt-36 overflow-hidden w-full">
+        
+        <div className="h-auto pt-36 overflow-hidden w-full">
           <Fade isvisible>
-            <h2 className="flex w-full justify-center text-center font-acme text-17xl text-colour-main-blue-800 font-poppins">
+            <h2 className="flex pl-4 sm:px-0 w-full justify-center text-center font-acme text-17xl text-colour-main-blue-800 font-poppins">
               What we provide?
             </h2>
           </Fade>
@@ -83,7 +84,7 @@ const home = () => {
               >
                 <div className="w-auto flex justify-center h-auto rounded-xl">
                   <Image
-                    className="flex px-6 sm:px-16 md:px-28 lg:px-0 h-[15rem] w-[25rem] sm:h-[20rem] sm:w-[30rem] xl:h-[25rem] xl:w-[35rem] rounded-xl"
+                    className="flex pl-7 sm:px-16 md:px-28 lg:px-0 h-[15rem] w-[25rem] sm:h-[20rem] sm:w-[30rem] xl:h-[25rem] xl:w-[35rem] rounded-xl"
                     src={"/undraw-happy-news-hxmt.svg"}
                     alt="error"
                     height={1024}
@@ -91,11 +92,11 @@ const home = () => {
                   ></Image>
                 </div>
                 <div className="w-auto px-6 sm:px-16 md:px-28 lg:px-0 flex flex-col items-center justify-center gap-y-10">
-                  <h2 className="md:w-[35rem] flex justify-center items-center font-poppins text-colour-main-blue-800 text-10xl">
+                  <h2 className="pl-6 sm:px-0 md:w-[35rem] flex justify-center items-center font-poppins text-colour-main-blue-800 text-10xl">
                     Real-Time Progress Monitoring
                   </h2>
 
-                  <div className="md:w-[35rem] flex flex-col gap-y-6 text-justify text-xl font-bold-26 text-colour-main-blue-700">
+                  <div className="pl-6 sm:px-0 md:w-[35rem] flex flex-col gap-y-6 text-justify text-xl font-bold-26 text-colour-main-blue-700">
                     Real-Time Progress Monitoring is a vital feature of our
                     training platform that allows organizations to keep a close
                     eye on their employees' learning journeys. With this tool,
@@ -109,10 +110,10 @@ const home = () => {
             <Fade bottom isvisible>
               <div className="flex xl:flex-row flex-col justify-between gap-16 xl:px-12 2xl:px-44">
                 <div className="w-auto px-6 sm:px-16 md:px-28 lg:px-0 flex flex-col items-center justify-center gap-y-10">
-                  <h2 className="md:w-[35rem] flex justify-center items-center font-poppins text-colour-main-blue-800 text-10xl">
+                  <h2 className="pl-6 sm:px-0 md:w-[35rem] flex justify-center items-center font-poppins text-colour-main-blue-800 text-10xl">
                     Mobile-Friendly Access
                   </h2>
-                  <div className="md:w-[35rem] flex flex-wrap flex-col gap-y-6 text-justify text-xl font-bold-26 text-colour-main-blue-700">
+                  <div className="pl-6 sm:px-0 md:w-[35rem] flex flex-wrap flex-col gap-y-6 text-justify text-xl font-bold-26 text-colour-main-blue-700">
                     Our platform offers Mobile-Friendly Access, ensuring that
                     learning is not bound by location or device. Employees can
                     seamlessly access training materials and resources from
@@ -125,7 +126,7 @@ const home = () => {
 
                 <div className="w-auto flex justify-center h-auto rounded-xl">
                   <Image
-                    className="flex px-6 sm:px-16 md:px-28 lg:px-0 h-[15rem] w-[25rem] sm:h-[20rem] sm:w-[30rem] xl:h-[25rem] xl:w-[35rem] rounded-xl"
+                    className="flex pl-7 sm:px-16 md:px-28 lg:px-0 h-[15rem] w-[25rem] sm:h-[20rem] sm:w-[30rem] xl:h-[25rem] xl:w-[35rem] rounded-xl"
                     src={"/undraw-social-influencer-sgsv.svg"}
                     alt="error"
                     height={1024}
@@ -141,7 +142,7 @@ const home = () => {
               >
                 <div className="w-auto flex justify-center h-auto rounded-xl">
                   <Image
-                    className="flex px-6 sm:px-16 md:px-28 lg:px-0 h-[15rem] w-[25rem] sm:h-[20rem] sm:w-[30rem] xl:h-[25rem] xl:w-[35rem] rounded-xl"
+                    className="flex pl-7 sm:px-16 md:px-28 lg:px-0 h-[15rem] w-[25rem] sm:h-[20rem] sm:w-[30rem] xl:h-[25rem] xl:w-[35rem] rounded-xl"
                     src={"/undraw-mention-6k5d.svg"}
                     alt="error"
                     height={1024}
@@ -149,11 +150,11 @@ const home = () => {
                   ></Image>
                 </div>
                 <div className="w-auto px-6 sm:px-16 md:px-28 lg:px-0 flex flex-col items-center justify-center gap-y-10">
-                  <h2 className="md:w-[35rem] flex justify-center items-center font-poppins text-colour-main-blue-800 text-10xl">
+                  <h2 className="pl-6 sm:px-0 md:w-[35rem] flex justify-center items-center font-poppins text-colour-main-blue-800 text-10xl">
                     Compliance and Security
                   </h2>
 
-                  <div className="md:w-[35rem] flex flex-col gap-y-6 text-justify text-xl font-bold-26 text-colour-main-blue-700">
+                  <div className="pl-6 sm:px-0 md:w-[35rem] flex flex-col gap-y-6 text-justify text-xl font-bold-26 text-colour-main-blue-700">
                     Compliance and Security are paramount in our training
                     platform. We adhere to the highest industry standards to
                     safeguard your data and ensure regulatory compliance. Your

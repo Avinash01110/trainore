@@ -66,7 +66,7 @@ const Footer = () => {
             </a>
           </span>
         </div>
-        <hr className="bg-colour-main-blue-800 h-1 w-auto rounded-sm" />
+        <hr className="bg-colour-main-blue-800 h-1 w-full pl-10 sm:px-0 rounded-sm" />
           <p className="text-sm text-gray-500 mt-4 text-center px-2 flex justify-center text-colour-main-blue-700">
             © 2023 Trainore — By Avinash Gupta
           </p>
